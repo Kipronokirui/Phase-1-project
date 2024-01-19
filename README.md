@@ -1,8 +1,5 @@
 # Phase 1 Project
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/yourproject.svg)](https://github.com/yourusername/yourproject/stargazers)
-
 ## Author
 
 - Name: Victor Kirui
@@ -10,16 +7,12 @@
 
 ## Description
 
-The ptoject is a phase one project where I was building a one page html web application that uses JavaScript to communicate with my Django Rest Framework backend to fetch books, allow users to subscribe to a book, and allow users to download already subscribed books.
+The project is a phase one project where I was building a one page html web application that uses JavaScript to communicate with my Django Rest Framework backend to fetch books, allow users to subscribe to a book, and allow users to download already subscribed books.
 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Installation
 
@@ -32,6 +25,8 @@ pip install virtualenv
 python -m venv env
 env\Scripts\activate
 python manage.py runserver
+cd frontend
+Run the index.html file
 
 ```
 
