@@ -1,4 +1,4 @@
-# Project Name
+# Phase 1 Project
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/yourproject.svg)](https://github.com/yourusername/yourproject/stargazers)
@@ -10,7 +10,7 @@
 
 ## Description
 
-A concise one-paragraph description of your project. Explain what your project does, why it is useful, and any special features it might have.
+The ptoject is a phase one project where I was building a one page html web application that uses JavaScript to communicate with my Django Rest Framework backend to fetch books, allow users to subscribe to a book, and allow users to download already subscribed books.
 
 ## Table of Contents
 
@@ -26,7 +26,8 @@ A concise one-paragraph description of your project. Explain what your project d
 Provide step-by-step instructions on how to install and set up your project. Make sure to include any dependencies that need to be installed and how to install them. If there are multiple steps, consider using bullet points.
 
 ```bash
-# Example installation steps
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
-npm install
+# Installation steps
+git clone https://github.com/Kipronokirui/Phase-1-project.git
+pip install virtualenv 
+python -m venv env
+env\Scripts\activate
