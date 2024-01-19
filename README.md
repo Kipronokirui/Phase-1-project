@@ -23,7 +23,7 @@ The ptoject is a phase one project where I was building a one page html web appl
 
 ## Installation
 
-Provide step-by-step instructions on how to install and set up your project. Make sure to include any dependencies that need to be installed and how to install them. If there are multiple steps, consider using bullet points.
+Steps required to clone and install the project.
 
 ```bash
 # Installation steps
@@ -31,3 +31,10 @@ git clone https://github.com/Kipronokirui/Phase-1-project.git
 pip install virtualenv 
 python -m venv env
 env\Scripts\activate
+python manage.py runserver
+
+## Installation
+
+1. Clone the repository
+2. Navigate to the project directory
+3. Run `npm install`
