@@ -10,7 +10,7 @@ from .serializers import (Category, CategorySerializer,
 from django.db.models import F
 from django.db.models import Exists, OuterRef
 
-# Create your views here.
+# Create your views here. 
 def home(request):
     context={}
     return render(request, 'books/books.html', context)
@@ -82,8 +82,6 @@ class BookSubscriptionView(APIView):
                     book=book
                 )
                 subscription.save()
-                # book.is_subscribed = True
-                # book.save()
                 book_serializer=BookSerializer(book, many=False)
                 data={
                     "book":book_serializer.data,
