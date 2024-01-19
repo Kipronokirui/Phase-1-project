@@ -33,6 +33,8 @@ python -m venv env
 env\Scripts\activate
 python manage.py runserver
 
+```
+
 ## Installation
 
 1. Clone the repository
